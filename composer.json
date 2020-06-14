@@ -1,0 +1,16 @@
+{
+	"name": "hi-phper/sample-package",
+	"type": "library",
+	"description": "This is a sample package of Composer",
+	"authors": [
+		{
+			"name": "hiphper"
+		}
+	],
+	"license": "GNU/GPLv2",
+	"autoload": {
+		"psr-4": {
+			"HiPhper\\SamplePackage\\": "src"
+		}
+	}
+}
